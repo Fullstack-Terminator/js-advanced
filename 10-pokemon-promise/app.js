@@ -8,23 +8,6 @@
     описание на английском и выведите в консоль
 */
 
-// const request = new XMLHttpRequest();
-// request.open('GET', 'https://pokeapi.co/api/v2/pokemon/ditto');
-// request.send();
-
-// request.addEventListener('load', function() {
-//     const pokemons = JSON.parse(this.responseText);
-
-//     const request = new XMLHttpRequest();
-//     request.open('GET', pokemons?.abilities[0]?.ability?.url);
-//     request.send();
-
-//     request.addEventListener('load', function() {
-//         const pokemonDitto = JSON.parse(this.responseText);
-//         console.log(pokemonDitto?.effect_entries[1]?.effect);
-//     });
-// });
-
 const pokemon = fetch('https://pokeapi.co/api/v2/pokemon/ditto')
     .then(response => response.json())
     .then(({ abilities }) => {
