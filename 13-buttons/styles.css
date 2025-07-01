@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.click-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    gap: 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    font-size: 30px;
+    line-height: 120%;
+    color: black;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.counter {
+    font-size: 150px;
+}
