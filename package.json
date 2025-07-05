@@ -1,0 +1,30 @@
+{
+    "name": "purlpleschoollessons2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "start": "live-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Fullstack-Terminator/js-advanced.git"
+    },
+    "keywords": [
+        "build"
+    ],
+    "author": "Mikhail",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/Fullstack-Terminator/js-advanced/issues"
+    },
+    "homepage": "https://github.com/Fullstack-Terminator/js-advanced#readme",
+    "description": "",
+    "devDependencies": {
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "live-server": "^1.2.2",
+        "rollup": "^4.44.2"
+    }
+}
